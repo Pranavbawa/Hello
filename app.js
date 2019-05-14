@@ -9,7 +9,7 @@ document.querySelector('.dice').style.display = 'none';
 
 document.querySelector('#score-0').textContent = 0;
 document.querySelector('#score-1').textContent = 0;
-document.querySelector('#cuurent-0').textContent = 0;
+document.querySelector('#curent-0').textContent = 0;
 document.querySelector('#current-1').textContent = 0;
 
 document.querySelector(".btn-roll").addEventListener('click',function(){
