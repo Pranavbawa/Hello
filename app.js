@@ -24,7 +24,10 @@ document.querySelector(".btn-roll").addEventListener('click',function(){
 
 	if(dice !== 1){
 		roundScore = roundScore + dice;
-		document.querySelector("current-"+activePlayer).textContent = roundScore;
+		document.querySelector("#current-"+ activePlayer).textContent = roundScore;
+	}
+	else{
+		activePlayer === 0 ? activePlayer =1 : activePlayer =0;
 	}
 
 })
