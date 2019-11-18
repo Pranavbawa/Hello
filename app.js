@@ -12,7 +12,7 @@ document.querySelector(".btn-roll").addEventListener('click',function(){
 
 	diceDom.style.display = "block";
 	diceDom.src = 'dice-'+ dice+'.png';
-	
+
 
 	if(dice=== 6 && lastDice === 6)
 	{
@@ -26,7 +26,7 @@ document.querySelector(".btn-roll").addEventListener('click',function(){
 		document.querySelector("#current-"+ activePlayer).textContent = roundScore
 	}
 
-	
+
 
 	else{
 
@@ -45,7 +45,7 @@ function nextPlayer(){
 		document.querySelector('.player-0-panel').classList.toggle('active');
 		document.querySelector('.player-1-panel').classList.toggle('active');
 		document.querySelector('.dice').style.display='none';
-		 	
+
 }
 
 
@@ -62,16 +62,16 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 		document.querySelector('.player-'+activePlayer+'-panel').classList.add('winner');
 		document.querySelector('.player-'+activePlayer+'-panel').classList.remove('active');
 		gamePlaying = false;
-	
+
 	}
 
 	else
 	{
 		nextPlayer();
-	}		
+	}
 	}
 
-	
+
 });
 
 document.querySelector('.btn-new').addEventListener('click', init);
@@ -97,5 +97,3 @@ document.querySelector('.player-0-panel').classList.remove('active');
 document.querySelector('.player-1-panel').classList.remove('active');
 document.querySelector('.player-0-panel').classList.add('active');
  }
-
-
