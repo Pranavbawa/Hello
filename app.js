@@ -1,3 +1,4 @@
+
 var scores, roundScore,activePlayer,gamePlaying;
 var lastDice;
 init();
