@@ -141,6 +141,19 @@ i {
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
+.win_input{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 45%;
+}
+
+.win_btn{
+
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 50%;
+}
+
 .dice {
     position: absolute;
     left: 50%;
